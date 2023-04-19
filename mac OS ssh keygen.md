@@ -19,7 +19,9 @@ Yourname@MacBook ~ % ssh-keygen
 
 ```
 Yourname@MacBook ~ % ssh-copy-id yourname@subdomain.yourserver.yourdomain
-
+```
+or
+```
 Yourname@MacBook ~ % ssh-copy-id yourname@serverIP
 ```
 
