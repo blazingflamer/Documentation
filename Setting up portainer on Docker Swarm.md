@@ -61,7 +61,9 @@ Save the file.
 ## Step 2: Deploy Portainer Stack
 
 Next, we can deploy the Portainer stack on our Swarm cluster. Run the following command:
-
+```
+docker stack deploy --compose-file portainer.yml portainer
+```
 
 This will deploy the Portainer service on the manager node of the Swarm.
 
